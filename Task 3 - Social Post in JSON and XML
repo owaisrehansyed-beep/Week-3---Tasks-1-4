@@ -1,0 +1,35 @@
+public class Task3JsonXml {
+public static void main(String[] args) {
+System.out.println("JSON:");
+System.out.println("{ \"post\": {");
+System.out.println(" \"author\": \"Alice\",");
+System.out.println(" \"content\": \"Just finished my Java project!\",");
+System.out.println(" \"date\": \"2024-01-20\", \"time\": \"3:45 PM\",");
+System.out.println(" \"likes\": 15,");
+System.out.println(" \"likedBy\": [\"Bob\", \"Charlie\", \"Diana\"],");
+System.out.println(" \"comments\": [");
+System.out.println(" {\"user\": \"Bob\", \"text\": \"Great work!\"},");
+System.out.println(" {\"user\": \"Charlie\", \"text\": \"Congratulations!\"},");
+System.out.println(" {\"user\": \"Diana\", \"text\": \"Well done, Alice!\"}");
+System.out.println(" ],");
+System.out.println(" \"tags\": [\"#programming\", \"#java\"]");
+System.out.println("} }");
+System.out.println("\nXML:");
+System.out.println("<post>");
+System.out.println(" <author>Alice</author>");
+System.out.println(" <content>Just finished my Java project!</content>");
+System.out.println(" <date>2024-01-20</date><time>3:45 PM</time>");
+System.out.println(" <likes>15</likes>");
+System.out.println("
+<likedBy><user>Bob</user><user>Charlie</user><user>Diana</user></likedBy>");
+System.out.println(" <comments>");
+System.out.println(" <comment><user>Bob</user><text>Great work!</text></comment>");
+System.out.println("
+<comment><user>Charlie</user><text>Congratulations!</text></comment>");
+System.out.println(" <comment><user>Diana</user><text>Well done,
+Alice!</text></comment>");
+System.out.println(" </comments>");
+System.out.println(" <tags><tag>#programming</tag><tag>#java</tag></tags>");
+System.out.println("</post>");
+}
+}
