@@ -1,0 +1,15 @@
+public class Task1JsonCsv {
+public static void main(String[] args) {
+System.out.println("JSON:");
+System.out.println("[");
+System.out.println(" {\"name\": \"Laptop\", \"price\": 1200, \"stock\": 15},");
+System.out.println(" {\"name\": \"Mouse\", \"price\": 25, \"stock\": 50},");
+System.out.println(" {\"name\": \"Keyboard\", \"price\": 75, \"stock\": 30}");
+System.out.println("]");
+System.out.println("\nCSV:");
+System.out.println("name,price,stock");
+System.out.println("Laptop,1200,15");
+System.out.println("Mouse,25,50");
+System.out.println("Keyboard,75,30");
+}
+}
