@@ -1,0 +1,25 @@
+public class Task2JsonYaml {
+public static void main(String[] args) {
+System.out.println("JSON:");
+System.out.println("{");
+System.out.println(" \"employees\": [");
+System.out.println(" { \"name\": \"John Smith\", \"department\": \"IT\",");
+System.out.println(" \"salary\": 75000, \"startDate\": \"2020-01-15\",");
+System.out.println(" \"skills\": [\"Java\", \"Python\", \"SQL\"] },");
+System.out.println(" { \"name\": \"Sarah Johnson\", \"department\": \"HR\",");
+System.out.println(" \"salary\": 65000, \"startDate\": \"2019-03-01\",");
+System.out.println(" \"skills\": [\"Recruitment\", \"Training\"] }");
+System.out.println(" ]");
+System.out.println("}");
+System.out.println("\nYAML:");
+System.out.println("employees:");
+System.out.println(" - name: John Smith");
+System.out.println(" department: IT");
+System.out.println(" salary: 75000");
+System.out.println(" skills: [Java, Python, SQL]");
+System.out.println(" - name: Sarah Johnson");
+System.out.println(" department: HR");
+System.out.println(" salary: 65000");
+System.out.println(" skills: [Recruitment, Training]");
+}
+}
