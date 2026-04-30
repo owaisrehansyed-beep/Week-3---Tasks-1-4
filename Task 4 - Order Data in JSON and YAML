@@ -1,0 +1,30 @@
+public class Task4JsonYaml {
+public static void main(String[] args) {
+System.out.println("JSON:");
+System.out.println("{ \"order\": {");
+System.out.println(" \"orderId\": 1001,");
+System.out.println(" \"customer\": {\"name\": \"Alice Johnson\", \"email\":
+\"alice@email.com\"},");
+System.out.println(" \"date\": \"2024-01-15\",");
+System.out.println(" \"items\": [");
+System.out.println(" {\"product\": \"Laptop\", \"qty\": 2, \"price\": 1200},");
+System.out.println(" {\"product\": \"Mouse\", \"qty\": 1, \"price\": 25}");
+System.out.println(" ],");
+System.out.println(" \"shippingAddress\": \"123 Main St, New York, NY 10001\",");
+System.out.println(" \"total\": 2425, \"paymentMethod\": \"Credit Card\", \"status\":
+\"Shipped\"");
+System.out.println("} }");
+System.out.println("\nYAML:");
+System.out.println("order:");
+System.out.println(" orderId: 1001");
+System.out.println(" customer: {name: Alice Johnson, email: alice@email.com}");
+System.out.println(" date: 2024-01-15");
+System.out.println(" items:");
+System.out.println(" - {product: Laptop, qty: 2, price: 1200}");
+System.out.println(" - {product: Mouse, qty: 1, price: 25}");
+System.out.println(" shippingAddress: 123 Main St, New York, NY 10001");
+System.out.println(" total: 2425");
+System.out.println(" paymentMethod: Credit Card");
+System.out.println(" status: Shipped");
+}
+}
